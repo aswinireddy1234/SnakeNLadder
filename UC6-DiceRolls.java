@@ -24,11 +24,10 @@ public class SnakeNLadder {
                         System.out.println("Player can not cross 100 ");
                         playerpos = playerpos - diceroll;
                         System.out.println("So player will remain at previous position which is " + playerpos);
-
                     } else if (playerpos == 100) {
                         System.out.println("u win");
                     }
-                    if (options == 2) {
+                     if (options == 2) {
                         System.out.println(" Snake  ");
                         playerpos = playerpos - diceroll;
                         System.out.println("current playerposition " + playerpos);

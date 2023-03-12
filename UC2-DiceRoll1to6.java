@@ -1,3 +1,4 @@
+package snakeandladder;
 import java.util.Random;
 public class SnakeAndLadderUc2 {
     public static void main(String[] args) {
